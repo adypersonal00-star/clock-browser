@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract Android project
-        run: python3 -m zipfile -e clock-browser-source-v2.zip .
+        run: python3 -m zipfile -e clock-browser-source-v3.zip .
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
